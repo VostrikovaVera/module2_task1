@@ -9,25 +9,25 @@ namespace Module2Task1
         private readonly int _maxRandomAction = 3;
         private readonly Random _random = new Random();
         private readonly Actions actions = new Actions();
-        private Result actionResult;
+        private readonly Logger logger = Logger.Instance;
 
         public void Run()
         {
-            var logger = Logger.getInstance();
 
-            for (int i = 0; i < 100; i++)
+            for (var i = 0; i < 100; i++)
             {
+                var actionResult = new Result();
                 var actionNumber = _random.Next(_minRandomAction, _maxRandomAction);
 
                 switch (actionNumber)
                 {
-                    case (int)ActionTypes.InfoAction:
+                    case 0:
                         actionResult = actions.InfoAction();
                         break;
-                    case (int)ActionTypes.WarningAction:
+                    case 1:
                         actionResult = actions.WarningAction();
                         break;
-                    case (int)ActionTypes.ErrorAction:
+                    case 2:
                         actionResult = actions.ErrorAction();
                         break;
                 };
@@ -35,7 +35,7 @@ namespace Module2Task1
                 if (!actionResult.Status)
                 {
                     var logMessage = $"Action failed by a reason: {actionResult.ErrMessage}";
-                    logger.LogEvent(LogTypes.Error, logMessage);
+                    logger.LogEvent("Error", logMessage);
                 }
             }
 

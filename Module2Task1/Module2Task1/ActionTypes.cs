@@ -1,6 +1,6 @@
 ﻿namespace Module2Task1
 {
-    enum ActionTypes
+    public enum ActionTypes
     {
         InfoAction,
         WarningAction,

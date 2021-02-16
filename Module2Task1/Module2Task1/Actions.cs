@@ -1,33 +1,35 @@
 ﻿namespace Module2Task1
 {
-    class Actions
+    public class Actions
     {
-        private readonly Logger _logger = Logger.getInstance();
-        private readonly Result _result = new Result();
+        private readonly Logger _logger = Logger.Instance;
 
         public Result InfoAction()
         {
             var logMessage = $"Start method: {nameof(InfoAction)}";
-            _logger.LogEvent(LogTypes.Info, logMessage);
+            _logger.LogEvent("Info", logMessage);
 
-            _result.Status = true;
-            return _result;
+            var result = new Result();
+            result.Status = true;
+            return result;
         }
 
         public Result WarningAction()
         {
             var logMessage = $"Skipped logic in method: {nameof(WarningAction)}";
-            _logger.LogEvent(LogTypes.Warning, logMessage);
+            _logger.LogEvent("Warning", logMessage);
 
-            _result.Status = true;
-            return _result;
+            var result = new Result();
+            result.Status = true;
+            return result;
         }
 
         public Result ErrorAction()
         {
-            _result.Status = false;
-            _result.ErrMessage = "I broke a logic.";
-            return _result;
+            var result = new Result();
+            result.Status = false;
+            result.ErrMessage = "I broke a logic.";
+            return result;
         }
     }
 }
