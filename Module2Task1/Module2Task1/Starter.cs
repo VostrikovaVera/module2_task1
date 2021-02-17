@@ -35,7 +35,7 @@ namespace Module2Task1
                 if (!actionResult.Status)
                 {
                     var logMessage = $"Action failed by a reason: {actionResult.ErrMessage}";
-                    logger.LogEvent("Error", logMessage);
+                    logger.LogEvent(LogTypes.Error, logMessage);
                 }
             }
 

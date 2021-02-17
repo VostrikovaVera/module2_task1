@@ -7,7 +7,7 @@
         public Result InfoAction()
         {
             var logMessage = $"Start method: {nameof(InfoAction)}";
-            _logger.LogEvent("Info", logMessage);
+            _logger.LogEvent(LogTypes.Info, logMessage);
 
             var result = new Result();
             result.Status = true;
@@ -17,7 +17,7 @@
         public Result WarningAction()
         {
             var logMessage = $"Skipped logic in method: {nameof(WarningAction)}";
-            _logger.LogEvent("Warning", logMessage);
+            _logger.LogEvent(LogTypes.Warning, logMessage);
 
             var result = new Result();
             result.Status = true;

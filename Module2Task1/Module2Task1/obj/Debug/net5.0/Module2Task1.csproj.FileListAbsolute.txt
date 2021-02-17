@@ -1,16 +1,4 @@
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\bin\Debug\net5.0\Module2Task1.exe
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\bin\Debug\net5.0\Module2Task1.deps.json
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\bin\Debug\net5.0\Module2Task1.runtimeconfig.json
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\bin\Debug\net5.0\Module2Task1.runtimeconfig.dev.json
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\bin\Debug\net5.0\Module2Task1.dll
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\bin\Debug\net5.0\ref\Module2Task1.dll
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\bin\Debug\net5.0\Module2Task1.pdb
 C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.AssemblyInfoInputs.cache
 C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.AssemblyInfo.cs
 C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.csproj.CoreCompileInputs.cache
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.dll
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\ref\Module2Task1.dll
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.pdb
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.genruntimeconfig.cache
-C:\Users\Vira\source\repos\VostrikovaVera\module2_task1\Module2Task1\Module2Task1\obj\Debug\net5.0\Module2Task1.csprojAssemblyReference.cache

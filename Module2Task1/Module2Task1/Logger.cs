@@ -6,31 +6,24 @@ namespace Module2Task1
     public class Logger
     {
         private static readonly Logger _instance = new Logger();
+        private readonly StringBuilder _generalLog = new StringBuilder();
 
         static Logger()
         {
         }
 
-        public static Logger Instance
+        private Logger()
         {
-            get
-            {
-                return _instance;
-            }
         }
 
-        public StringBuilder GeneralLog { get; }
+        public static Logger Instance => _instance;
+        public string GeneralLog => _generalLog.ToString();
 
-        public Logger ()
-        {
-            GeneralLog = new StringBuilder();
-        }
-
-        public void LogEvent(string status, string message)
+        public void LogEvent(LogTypes status, string message)
         {
             var logItem = $"{DateTime.UtcNow}: {status}: {message}";
             Console.WriteLine(logItem);
-            GeneralLog.AppendLine(logItem);
+            _generalLog.AppendLine(logItem);
         }
     }
 }
